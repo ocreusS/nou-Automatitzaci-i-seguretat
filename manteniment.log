@@ -1,0 +1,29 @@
+======================================
+ Manteniment de la base de dades Pagila
+======================================
+
+[SQL] VACUUM ANALYZE rental;
+VACUUM
+
+[SQL] VACUUM ANALYZE inventory;
+VACUUM
+
+[SQL] VACUUM ANALYZE film;
+VACUUM
+
+[SQL] VACUUM ANALYZE customer;
+VACUUM
+
+[SQL] REINDEX TABLE rental;
+REINDEX
+
+[SQL] REINDEX TABLE inventory;
+REINDEX
+
+[SQL] REINDEX TABLE film;
+REINDEX
+
+[SQL] REINDEX TABLE customer;
+REINDEX
+
+[OK] Manteniment finalitzat correctament.
